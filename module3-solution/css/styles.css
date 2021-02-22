@@ -64,13 +64,15 @@ h3 {
 }
 
 .container-fluid {
-	background-color: #CABBAB;
 	padding: 20px;
 	padding-top: 0;
 	width: 95%;
 	margin: auto;
 }
 
+.row{
+	background-color: #CABBAB;
+}
 
 @media (min-width: 768px){
 	
