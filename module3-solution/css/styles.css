@@ -1,0 +1,97 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/**HEADER**/
+#header-nav {
+	background-color: #BABABA;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{ /**Name**/
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: black;
+}
+
+.navbar-brand a {
+	text-decoration: none;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #C9C9C9;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+}
+
+
+/**BODY**/
+
+h2	{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 0;
+}
+
+.container-fluid {
+	background-color: #CABBAB;
+	padding: 20px;
+	padding-top: 0;
+	width: 95%;
+	margin: auto;
+}
+
+
+@media (min-width: 768px){
+	
+	#header-nav {
+		background-color: #BABABA;
+		border-radius: 0;
+		border: 0;
+		height: 100px;
+	}
+
+	.navbar-brand h1{
+		font-size: 2em;
+		margin-top: 15px;
+	}
+
+
+}
+
+@media (max-width: 767px){
+	.container-fluid {
+		width: 80%;
+		font-size: 1.05em;
+	}
+}
